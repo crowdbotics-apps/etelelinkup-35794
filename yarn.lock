@@ -998,7 +998,7 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@modules/chat@file:./modules/chat/":
+"@modules/chat@file:./modules/chat":
   version "1.0.0"
   dependencies:
     pubnub "^4.29.11"
@@ -1231,6 +1231,9 @@
     redux "^4.1.2"
     redux-thunk "^2.4.1"
     reselect "^4.1.5"
+
+"@screens/welcome@file:./screens/welcome/":
+  version "1.0.0"
 
 "@sideway/address@^4.1.3":
   version "4.1.4"
